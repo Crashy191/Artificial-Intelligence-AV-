@@ -6,7 +6,7 @@ import pandas
 model = torch.hub.load('ultralytics/yolov5','custom',path='C:/Users/cacyp/OneDrive/Documents/Vision Arti/model1/frutas.pt')
 
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 #deteccion
 while True:

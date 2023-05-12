@@ -1,0 +1,57 @@
+(mi_entorno) PS C:\..\> pip list
+Package            Version
+------------------ ------------
+certifi            2023.5.7
+charset-normalizer 3.1.0
+colorama           0.4.6
+contourpy          1.0.7
+cycler             0.11.0
+fonttools          4.39.3
+idna               3.4
+kiwisolver         1.4.4
+matplotlib         3.7.1
+numpy              1.24.3
+opencv-python      4.7.0.72
+packaging          23.1
+pandas             2.0.1
+Pillow             9.5.0
+pip                23.0.1
+psutil             5.9.0
+pyparsing          3.0.9
+python-dateutil    2.8.2
+pytz               2023.3
+PyYAML             6.0
+requests           2.30.0
+seaborn            0.12.2
+setuptools         66.0.0
+six                1.16.0
+torch              1.13.1+cu117
+torchvision        0.14.1+cu117
+tqdm               4.65.0
+typing_extensions  4.5.0
+tzdata             2023.3
+urllib3            2.0.2
+wheel              0.38.4
+--------------------------------
+
+Instalacion: 
+-Pytorch
+(Si se cuenta con GPU NVIDIA)
+pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
+Solamente CPU:
+pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
+
+-OpenCV
+pip install opencv-python
+
+-Pandas
+pip install pandas
+
+-SeaBorn
+pip install seaborn
+
+-Numpy
+pip install numpy
+
+-MatPlotLib
+pip install matplotlib

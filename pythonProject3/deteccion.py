@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import pandas
 #modelo
-model = torch.hub.load('ultralytics/yolov5','custom',path='C:/Users/cacyp/OneDrive/Documents/Vision Arti/model1/frutas.pt')
+model = torch.hub.load('ultralytics/yolov5','custom',path='C:/Users/cacyp/OneDrive/Documents/Vision Arti/model/frutas.pt') #modificar path absoluto
 
 
 cap = cv2.VideoCapture(0)
